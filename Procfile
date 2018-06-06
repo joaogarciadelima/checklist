@@ -1,2 +1,2 @@
 python manage.py migrate --noinput
-web: gunicorn eventex.wsgi --log-file -
+web: gunicorn checklistos.wsgi --log-file -

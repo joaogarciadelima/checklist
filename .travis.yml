@@ -2,7 +2,8 @@ language: python
 python:
   - 3.6
 install:
-  - pip install -q -r requirements-dev.txt
+  - pip install -q -r requirements-dev.txt codecov
+  - cp contrib/env-sample .env
 script:
   - flake8
   - pytest checklistos --cov=checklistos

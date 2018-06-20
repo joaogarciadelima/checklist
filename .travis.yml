@@ -6,6 +6,6 @@ install:
   - cp contrib/env-sample .env
 script:
   - flake8
-  - pytest checklistos # --cov=checklistos
-# after_sucess:
-# - codecov
+  - pytest checklistos --cov=checklistos
+after_sucess:
+ - codecov

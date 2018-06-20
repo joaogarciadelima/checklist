@@ -223,3 +223,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Template
+node_modules

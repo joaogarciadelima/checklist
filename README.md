@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/joaogarciadelima/checklistos.svg?branch=master)](https://travis-ci.org/joaogarciadelima/checklistos)
 [![Updates](https://pyup.io/repos/github/joaogarciadelima/checklistos/shield.svg)](https://pyup.io/repos/github/joaogarciadelima/checklistos/)
 [![Python 3](https://pyup.io/repos/github/joaogarciadelima/checklistos/python-3-shield.svg)](https://pyup.io/repos/github/joaogarciadelima/checklistos/)
+[![codecov](https://codecov.io/gh/joaogarciadelima/checklistos/branch/master/graph/badge.svg)](https://codecov.io/gh/joaogarciadelima/checklistos)
 
 Para instalar Unix: 
 

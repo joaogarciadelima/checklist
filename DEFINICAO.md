@@ -7,52 +7,52 @@
 - Funcionalidades:
  
   - Recepção do cliente (primeira funcionalidade a liberar)
-  
-      - Identificação do cliente previamente cadastrado
-      - Cadastro de cliente novo
-      - Identificação do veículo pela placa previamente cadastrada(a placa do veículo será uma chave única)
-      se já estiver cadastrada para outro cliente deve haver a possibilidade de transferência de titularidade.
-      - Cadastro de novo veículo.
+    - Identificação do cliente previamente cadastrado
+    - Cadastro de cliente novo
+    - Identificação do veículo pela placa previamente cadastrada(a placa do veículo será uma chave única)
+    se já estiver cadastrada para outro cliente deve haver a possibilidade de transferência de titularidade.
+    - Cadastro de novo veículo.
 
   - dados da ordem de serviço(implementação a analisar viabilidade)
-    - Fotos do produto(fotos do painel, km etc)
+    - Fotos do veículo(fotos do painel para confirmar km etc)
     - Gravação de voz do relato do cliente
   
-# 2ª Etapa
+## Detalhes técnicos:
+  - Interface HTTP
+  - online no banco de dados
+  - servidor próprio em cada instalação do ERP
+  - **Banco do ERP SQL SERVER**
+  - Definido tamanho do tablet de 10’’ para parâmetro mobile
 
-  - itens a avaliar
-    - precisa aprovar orçamento
-    - prazos
-    - histórico do cliente
-    - exibição do histórico do veículo na interface web(histórico já existe no ERP)
-    - identificação da OS por cliente ou veículo
-    - checagem de entrega, para qualificar e garantir o processo
-    - assinatura do cliente
- 
-  - Detalhes técnicos:
+## Desafios
 
-    - Interface http
-    - online no banco de dados
-    - servidor próprio em cada instalação do ERP
-    - Banco do ERP SQL SERVER
-    - Definido tamanho do tablet de 10’’ para parâmetro mobile
+- Algumas implementações na fase inicial e outras a serem pensadas
 
-  - Desafios:
-   
+  - Fase inicial:
     - Autenticação dos usuários do sistema web e do ERP
     - Cadastrar um novo cliente, pois os dados na abertura da OS são mínimos, normalmente os clientes não querem e não
     tem tempo para detalhar os dados ao entregar os veículos.
-    - Cadastrar um novo cliente se já o cadastro da OS já começou.
+    - Cadastrar um novo cliente se o cadastro da OS já começou.
     - Cadastrar um novo veículo em os já iniciada.
     - Gravar a voz do cliente com o problema do carro se houver(implementação futura)
     - Usabilidade (talvez botões grandes de dashboard )
-    - Navegar entre formulários, pois é tablet
+    - Navegar entre formulários, provavelmente será usado um tablet para a recepção e primeiro cadastro das informações da ordem de serviço
     - Localização de clientes
     - Localização de OS
     - Localização de veículos
 
+# Futuro
 
-  - Recursos adicionais (futuro):
+- Itens a avaliar para implementação futura
+
+  - 2ª fase:
+    - Precisa aprovar orçamento
+    - Prazo para entrega do veículo
+    - Histórico do cliente
+    - Exibição do histórico do veículo na interface web(histórico já existe no ERP)
+    - Identificação da OS por cliente ou veículo
+    - Checagem de entrega, para qualificar e garantir o processo
+    - Assinatura do cliente na entrega do veículo
     - Registro de horas dos mecânicos
     - Solicitação e registro de peças para a OS
     - Autorizações de orçamento pela web

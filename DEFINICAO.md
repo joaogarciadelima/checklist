@@ -14,7 +14,7 @@
     - Cadastro de novo veículo.
 
   - dados da ordem de serviço(implementação a analisar viabilidade)
-    - Fotos do veículo(fotos do painel para confirmar km etc)
+    - Fotos do veículo(fotos do painel para confirmar km, outras fotos do veículo)
     - Gravação de voz do relato do cliente
   
 ## Detalhes técnicos:
@@ -26,7 +26,7 @@
 
 ## Desafios
 
-- Algumas implementações na fase inicial e outras a serem pensadas
+- Algumas implementações na fase inicial e outras a serem pensadas:
 
   - Fase inicial:
     - Autenticação dos usuários do sistema web e do ERP

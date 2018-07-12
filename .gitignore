@@ -226,3 +226,6 @@ venv.bak/
 
 # Template
 node_modules
+
+# vscode
+.vscode

@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', core_views.home),
     path('produtos/', include('checklistos.produtos.urls')),
+    path('servicos/', include('checklistos.servicos.urls')),
 ]

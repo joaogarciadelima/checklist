@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class ProdutosConfig(AppConfig):
+class ServicosConfig(AppConfig):
     name = 'checklistos.servicos'

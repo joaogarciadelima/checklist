@@ -10,7 +10,7 @@ from checklistos.produtos.models import Produto
 
 # def test_app_link_in_home(client):
 #     response = client.get('/')
-#     dj_assert_contains(response, reverse('produtos:index'))
+#     dj_assert_contains(response, reverse('servicos:index'))
 
 
 IMAGE_PATH = path.dirname(__file__)

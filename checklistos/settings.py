@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'checklistos.core',
     'checklistos.produtos',
+    'checklistos.servicos',
 ]
 
 MIDDLEWARE = [

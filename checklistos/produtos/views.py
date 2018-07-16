@@ -7,7 +7,7 @@ from checklistos.produtos.models import Produto
 def index(request):
     query_set = Produto.objects.order_by('nomelongo')
     ctx = {
-        'produtosservicos': list(query_set)
+        'produtos': list(query_set)
     }
 
     return render(request, 'produtos/index.html', context=ctx)

@@ -2,4 +2,4 @@ from checklistos.urls import urlpatterns
 
 
 def test_urls_len():
-    assert 3 == len(urlpatterns)
+    assert 4 == len(urlpatterns)

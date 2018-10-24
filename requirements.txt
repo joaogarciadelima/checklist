@@ -1,5 +1,5 @@
 django==2.1.2
-pytz==2018.5
+pytz==2018.6
 python-decouple==3.1
 gunicorn==19.9.0
 boto3==1.9.30

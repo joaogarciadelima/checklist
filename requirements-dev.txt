@@ -13,6 +13,6 @@ pluggy==0.8.0
 pytest==3.10.1
 py==1.7.0
 pytest-django==3.4.3
-coverage==4.5.1
+coverage==4.5.2
 pytest-cov==2.6.0
 -r requirements.txt

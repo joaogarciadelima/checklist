@@ -5,7 +5,7 @@ gunicorn==19.9.0
 boto3==1.9.156
 docutils==0.14
 six==1.12.0
-botocore==1.12.156
+botocore==1.12.158
 psycopg2-binary==2.8.2
 docutils==0.14
 jmespath==0.9.4

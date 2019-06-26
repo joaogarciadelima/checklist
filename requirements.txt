@@ -2,7 +2,7 @@ django==2.2.2
 pytz==2019.1
 python-decouple==3.1
 gunicorn==19.9.0
-boto3==1.9.165
+boto3==1.9.177
 docutils==0.14
 six==1.12.0
 botocore==1.12.165

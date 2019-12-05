@@ -1,4 +1,4 @@
-django==2.2.6
+django==2.2.8
 pytz==2019.2
 python-decouple==3.3
 gunicorn==19.9.0

@@ -8,7 +8,7 @@ pycodestyle==2.5.0
 # Dependencias do pytest
 attrs==19.3.0
 colorama==0.4.1
-more-itertools==8.0.0
+more-itertools==8.0.2
 pluggy==0.13.1
 pytest==5.3.1
 py==1.8.0

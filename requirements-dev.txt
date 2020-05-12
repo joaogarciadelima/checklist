@@ -1,9 +1,9 @@
 flake8==3.7.9
 mccabe==0.6.1
-pycodestyle==2.5.0
+pycodestyle==2.6.0
 pyflakes==2.1.1
 atomicwrites==1.3.0
-pycodestyle==2.5.0
+pycodestyle==2.6.0
 
 # Dependencias do pytest
 attrs==19.3.0
